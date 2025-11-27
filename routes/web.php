@@ -6,5 +6,4 @@ use App\Http\Controllers\MovieController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::apiResource('movies', MovieController::class);
+// Otras rutas web pueden ir aquí   
